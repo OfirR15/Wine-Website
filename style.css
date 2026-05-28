@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f2e6;
+    padding: 20px;
+    color: #4d3b2c;
+  }
+  
+h1
+{
+    text-align: center;
+    color: #6a5746;
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+  #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  #logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  #wine-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .wine-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.2s;
+  }
+  
+  .wine-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .wine-card h2 {
+    font-size: 32px;
+    margin: 15px 0 10px;
+  }
+  
+  .wine-card p {
+    color: #6b5a4a;
+    line-height: 1.5;
+  }
+  
+  .wine-card h3 {
+    color: #ad822c;
+    margin-top: 15px;
+  }
+  
+  .wine-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 12px;
+    background-color: white;
+  }
+
+  .empty-message {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    color: darkred;
+  }
+
+  #admin-wine-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  form {
+    max-width: 550px;
+    margin: 40px auto;
+    background-color: white;
+    border-color: #86cd0a;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  input,
+  textarea,
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .filters {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px 0;
+    flex-wrap: wrap;
+  }
+  
+  .filters button {
+    background: none;
+    border: none;
+    color: #d4b573;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .filters button:hover {
+    opacity: 0.7;
+  }
+  
+  .filters button.active {
+    font-weight: bold;
+  }
+
+  #button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #ad822c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #button:hover {
+    background-color: #8a6823;
+  }
+
+ #submit-btn {
+    top: 30px;
+    right: 30px;
+    background-color: #ad822c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+
+ }
+
+ #submit-btn:hover {
+    background-color: #8a6823;
+  }

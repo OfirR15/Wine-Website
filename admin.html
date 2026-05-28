@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Admin Page</h1>
+    <a href="index.html" id="logo"><img src="https://images.squarespace-cdn.com/content/v1/5f4c9715acd7330370eaf51f/7aa230ef-67ca-44f1-83bd-b46d3359e326/HOG-Logo-TagandSymbol-Gold_WhiteOutline.png"></a>
+    <h2 id="form-title">Add new wine</h2>
+  
+    <form id="wine-form">
+      <input type="text" id="name" placeholder="Wine name" required>
+      <input type="text" id="type" placeholder="Wine type" required>
+      <input type="number" id="price" placeholder="Price" required>
+      <textarea id="description" placeholder="Description" required></textarea>
+      <input type="text" id="image" placeholder="Image URL" required>
+  
+      <button type="submit" id="submit-btn">Submit</button>
+      <button type="button" id="cancel-edit-btn" style="display: none;">Cancel Edit</button>
+    </form>
+  
+    <h2>Wine List</h2>
+  
+    <div id="admin-wine-list"></div>
+  
+    <script src="admin.js"></script>
+  </body>
+</html>

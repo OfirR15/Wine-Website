@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Boutiqe Winery</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Our wine collection:</h1>
+  <a href="index.html" id="logo"><img src="https://images.squarespace-cdn.com/content/v1/5f4c9715acd7330370eaf51f/7aa230ef-67ca-44f1-83bd-b46d3359e326/HOG-Logo-TagandSymbol-Gold_WhiteOutline.png"></a>
+  <a href="admin.html"id="button" class="button">Admin Page</a>
+  <div class="filters">
+    <button onclick="filterWines('All')">All</button>
+    <button onclick="filterWines('Red Wine')">Red Wine</button>
+    <button onclick="filterWines('White Wine')">White Wine</button>
+    <button onclick="filterWines('Rosé Wine')">Rosé</button>
+  </div>
+  <div id="wine-list"></div>
+  <script src="script.js"></script>
+
+</body>
+</html>
